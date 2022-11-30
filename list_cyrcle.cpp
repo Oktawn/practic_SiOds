@@ -9,6 +9,11 @@ int main()
 	list.AddTail(11);
 	list.AddHead(15);
 	list.OutList();
+	list.delHead();
+	list.Insert(2, 99);
+	list.Insert(7, 32);
+	list.OutList();
+
 
 	return 0;
 }
